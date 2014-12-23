@@ -1,4 +1,4 @@
-Documentaion on How to install Retrogame into Retropie with GPIO buttons.
+Documentation on How to install Retrogame into Retropie with GPIO buttons.
 
 Boot up Retrogame, preferrably with SSH enabled, so you access your pi remotely. This can be done with ethernet or wifi, depending on your situation.
 

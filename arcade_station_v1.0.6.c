@@ -147,7 +147,7 @@ struct {
 	{ 17,	   KEY_1     }, // start player 1
 	{ 27, 	   KEY_2     }, // start player 2
 	{  7,      KEY_5  },	// insert coin - Select 1
-	{  22,     KEY_6  },    // insert coin - Select 20
+	{  22,     KEY_6  },    // insert coin - Select 2
 	{  10,     KEY_P  }     // game pause
 };
 #define IOLEN (sizeof(io) / sizeof(io[0])) // io[] table size
