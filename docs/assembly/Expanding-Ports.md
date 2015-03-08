@@ -30,11 +30,14 @@ Reading:
 Reading the code
 ----------------
 
+- arcade_station_v1.0.6.c is based on and replaces retrogame.c 
+    - compile and run ONE of them
+    - Example: add the compiled executable to run in the background in /etc/rc.local
 - Reading retrogame.c is a bit confusing!
-- the pin numbers, as in ioStandard[] , refer to the GPIO index, NOT the harware pin order
-    - example: 25, KEY_LEFT, is not at the end of the 26-pin chip
-        - it is on the right edge a few pins up.  Why?  I don't know.  Ask the RPi designers!
-    - example: 7 KEY_LEFTALT is actually at the bottom right corner
+    - the pin numbers, as in ioStandard[] , refer to the GPIO index, NOT the harware pin order
+        - example: 25, KEY_LEFT, is not at the end of the 26-pin chip
+            - it is on the right edge a few pins up.  Why?  I don't know.  Ask the RPi designers!
+        - example: 7 KEY_LEFTALT is actually at the bottom right corner
 
 
 
